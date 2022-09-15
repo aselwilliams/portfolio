@@ -39,12 +39,12 @@
   }
   @media screen and (max-width: 667px) {
     .pl {
+      padding-top:100px;
       padding-bottom: 450px;
       width: 100%;
     }
     .pl-list {
       flex-direction: column;
-      /* margin-bottom:300px; */
     }
     .pl-texts {
       width: 100%;

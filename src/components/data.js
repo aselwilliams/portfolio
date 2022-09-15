@@ -22,11 +22,4 @@ export const products = [
         link:'https://main--world-clocks-asel.netlify.app/',
         desc:'Application that enables you to find out current time of any desired city in the world. Tech stack: React, Context api, Moment, CSS, uuid'
     }
-    // {
-    //     id:3,
-    //     title: 'Emplosoft',
-    //     img:  "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    //     link:'https://exuberant-cent.surge.sh/',
-    //     desc: 'System that helps truck companies to track, analyze and improve their fleet operations. Tech Stack: React.js, Redux, Firebase, Material UI, React Router, Moment etc.'
-    // }
 ]

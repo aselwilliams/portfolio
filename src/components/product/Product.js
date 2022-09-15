@@ -18,10 +18,8 @@ function Product({link, img, desc, title}) {
      
     </div>
     <h2>{title}</h2>
-    {/* <div className='para-bg'> */}
        <p className='para'>{desc}</p>
        </div>
-    // </div>
   )
 }
 
