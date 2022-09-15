@@ -31,44 +31,44 @@ function Contact() {
   return (
     <div id="contact-me">
       <h1 className="teamwork">"Teamwork makes the dream work"</h1>
-      <section class="contact-us">
-        <div class="contact-us-img"></div>
+      <section className="contact-us">
+        <div className="contact-us-img"></div>
 
         <form ref={formRef} onSubmit={handleSubmit}>
-          <div class="personal ">
-            <div class="row">
+          <div className="personal ">
+            <div className="row">
               <input
                 type="text"
                 name="user-name"
-                class="p-grey"
+                className="p-grey"
                 placeholder="Your Name *"
                 required
               />
             </div>
-            <div class="row">
+            <div className="row">
               <input
                 type="email"
                 name="user-email"
-                class="p-grey"
+                className="p-grey"
                 placeholder="Your Email *"
                 required
               />
             </div>
-            <div class="row">
+            <div className="row">
               <input
                 type="tel"
                 name="user-subject"
-                class="p-grey"
+                className="p-grey"
                 placeholder="Subject"
                 required
               />
             </div>
           </div>
-          <div class="row message">
+          <div className="row message">
             <textarea
               name="user-message"
               id=""
-              class="p-grey"
+              className="p-grey"
               cols="35"
               rows="10"
               required
@@ -76,7 +76,7 @@ function Contact() {
               Your Message *
             </textarea>
           </div>
-          <div class="row">
+          <div className="row">
             <button type="submit">SEND MESSAGE</button>
           </div>
           {done && "Thank you..."}
@@ -84,7 +84,7 @@ function Contact() {
       </section>
 
       <footer>
-        <div class="copyright">
+        <div className="copyright">
           <div className="contact-info">
             <div className="row">
               <img src={phone} alt="phone" />
@@ -107,32 +107,32 @@ function Contact() {
             </div>
           </div>
           <div className="social">
-            <div class="copyright-text">
-              <h4 class="yellow underline">My social profile</h4>
+            <div className="copyright-text">
+              <h4 className="yellow underline">My social profile</h4>
             </div>
 
-            <div class="media">
+            <div className="media">
               <a
                 href="https://github.com/aselwilliams"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa-brands fa-square-github fa-3x"></i>
+                <i className="fa-brands fa-square-github fa-3x"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/asel-williams-987574246/"
-                class="linkedin"
+                className="linkedin"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-linkedin fa-3x"></i>
+                <i className="fab fa-linkedin fa-3x"></i>
               </a>
               <a
                 href="https://drive.google.com/file/d/1pKHc4PIX0eVaF4NBN-9GrcUJ2GCjH58D/view"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa-sharp fa-solid fa-id-card fa-3x"></i>
+                <i className="fa-sharp fa-solid fa-id-card fa-3x"></i>
               </a>
             </div>
           </div>
