@@ -32,8 +32,7 @@ function Contact() {
     <div id="contact-me">
       <h1 className="teamwork">"Teamwork makes the dream work"</h1>
       <section class="contact-us">
-        <div class="contact-us-img">
-        </div>
+        <div class="contact-us-img"></div>
 
         <form ref={formRef} onSubmit={handleSubmit}>
           <div class="personal ">
@@ -86,14 +85,21 @@ function Contact() {
 
       <footer>
         <div class="copyright">
-        <div className="contact-info">
+          <div className="contact-info">
             <div className="row">
               <img src={phone} alt="phone" />
               <span>+1(469)2384222</span>
             </div>
             <div className="row">
               <img src={email} alt="email" />
-              <span className='email' onClick={() => window.location = 'mailto:asellwilliams@gmail.com'}>asellwilliams@gmail.com</span>
+              <span
+                className="email"
+                onClick={() =>
+                  (window.location = "mailto:asellwilliams@gmail.com")
+                }
+              >
+                asellwilliams@gmail.com
+              </span>
             </div>
             <div className="row">
               <img src={address} alt="phone" />
@@ -106,16 +112,26 @@ function Contact() {
             </div>
 
             <div class="media">
-              <a href="https://github.com/aselwilliams" target="_blank" rel="noreferrer" >
+              <a
+                href="https://github.com/aselwilliams"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fa-brands fa-square-github fa-3x"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/asel-williams-987574246/"
-                class="linkedin" target="_blank" rel="noreferrer" 
+                class="linkedin"
+                target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-linkedin fa-3x"></i>
               </a>
-              <a href="https://drive.google.com/file/d/1pKHc4PIX0eVaF4NBN-9GrcUJ2GCjH58D/view" target="_blank" rel="noreferrer" >
+              <a
+                href="https://drive.google.com/file/d/1pKHc4PIX0eVaF4NBN-9GrcUJ2GCjH58D/view"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fa-sharp fa-solid fa-id-card fa-3x"></i>
               </a>
             </div>
