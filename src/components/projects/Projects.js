@@ -3,14 +3,8 @@ import Product from '../product/Product';
 import './projects.css';
 import {products} from '../data';
 import ecommerce from '../images/ecommerce.png';
-import celebs from '../images/celebs.png';
-import exptracker from '../images/exptracker.png'
 import whatsapp from '../images/whatsapp.png';
-import login from '../images/login.png';
-import dashboard from '../images/dashboard.png';
-import crud from '../images/crud.png';
 import clocks from '../images/clocks.png'
-
 
 function Projects() {
   let images=[whatsapp,ecommerce,clocks]

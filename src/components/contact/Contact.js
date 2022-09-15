@@ -7,7 +7,7 @@ import address from "../images/address.png";
 
 function Contact() {
   const formRef = useRef();
-  const [done, setDone] = useState(false);
+  const [done] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -106,16 +106,16 @@ function Contact() {
             </div>
 
             <div class="media">
-              <a href="https://github.com/aselwilliams" target="_blank">
+              <a href="https://github.com/aselwilliams" target="_blank" rel="noreferrer" >
                 <i class="fa-brands fa-square-github fa-3x"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/asel-williams-987574246/"
-                class="linkedin" target="_blank"
+                class="linkedin" target="_blank" rel="noreferrer" 
               >
                 <i class="fab fa-linkedin fa-3x"></i>
               </a>
-              <a href="https://drive.google.com/file/d/1pKHc4PIX0eVaF4NBN-9GrcUJ2GCjH58D/view" target="_blank">
+              <a href="https://drive.google.com/file/d/1pKHc4PIX0eVaF4NBN-9GrcUJ2GCjH58D/view" target="_blank" rel="noreferrer" >
                 <i class="fa-sharp fa-solid fa-id-card fa-3x"></i>
               </a>
             </div>
