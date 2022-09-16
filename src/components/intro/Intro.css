@@ -122,9 +122,11 @@
     .i-desc {
         display: none;
     }
-  .i-btn{
-      height:2rem;
-  }
+    .i-btn{
+        height: 4.375rem;
+        width: 8.75rem;
+        padding:15px 8px;
+     }
 }
 @media screen and (max-width: 1330px){
  .i-btn{
@@ -133,3 +135,24 @@
     padding:15px 8px;
  }
 }
+@media screen and (max-width: 1830px){
+    .i-btn{
+       height: 4.375rem;
+       width: 8.75rem;
+       padding:15px 8px;
+    }
+   }
+   @media screen and (max-width: 2000px){
+    .i-btn{
+       height: 4.375rem;
+       width: 8.75rem;
+       padding:15px 8px;
+    }
+   }
+   @media screen and (max-width: 2200px){
+    .i-btn{
+       height: 4.375rem;
+       width: 8.75rem;
+       padding:15px 8px;
+    }
+   }

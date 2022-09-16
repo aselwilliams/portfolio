@@ -128,7 +128,7 @@ function Contact() {
                 <i className="fab fa-linkedin fa-3x"></i>
               </a>
               <a
-                href="https://drive.google.com/file/d/1pKHc4PIX0eVaF4NBN-9GrcUJ2GCjH58D/view"
+                href="https://drive.google.com/file/d/1GW2dOjE8Rblx_SxQ4zWoHcl-LAjBRdw9/view"
                 target="_blank"
                 rel="noreferrer"
               >
