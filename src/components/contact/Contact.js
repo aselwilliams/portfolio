@@ -56,7 +56,7 @@ function Contact() {
             </div>
             <div className="row">
               <input
-                type="tel"
+                type="text"
                 name="user-subject"
                 className="p-grey"
                 placeholder="Subject"
