@@ -5,9 +5,12 @@ import { products } from "../data";
 import ecommerce from "../images/ecommerce.png";
 import whatsapp from "../images/whatsapp.png";
 import clocks from "../images/clocks.png";
+import beauty from "../images/beauty.png";
+import socialMedia from "../images/social-media.png";
+import cats from "../images/cats.png";
 
 function Projects() {
-  let images = [whatsapp, ecommerce, clocks];
+  let images = [whatsapp, ecommerce, clocks, beauty, socialMedia, cats];
   return (
     <div className="pl">
       <div className="pl-texts">

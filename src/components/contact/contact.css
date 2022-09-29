@@ -1,172 +1,170 @@
-#contact-me{
+#contact-me {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   text-align: center;
 }
 .teamwork {
-  padding:30px;
+  padding: 30px;
 }
-.contact-us{
-  background-image: url('https://images.pexels.com/photos/3184436/pexels-photo-3184436.jpeg?auto=compress&cs=tinysrgb&w=1600');
- 
+.contact-us {
+  background-image: url("https://images.pexels.com/photos/3184436/pexels-photo-3184436.jpeg?auto=compress&cs=tinysrgb&w=1600");
+
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
-  height: 700px;   
+  height: 700px;
   width: 100vw;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
-.minimalism{
-  height:700px;
-  width:100vw;
+.minimalism {
+  height: 700px;
+  width: 100vw;
 }
 
-.contact-us-head{
+.contact-us-head {
   text-align: center;
   padding-top: 10px;
 }
-.contact-us-head h1{
+.contact-us-head h1 {
   color: white;
   font-size: 30px;
   padding-bottom: 10px;
 }
-form input, textarea, form button {
+form input,
+textarea,
+form button {
   border-radius: 6px;
   padding: 20px;
   margin: auto;
 }
 
-form{
+form {
   display: flex;
   height: 50%;
   width: 300px;
   flex-direction: column;
   justify-content: center;
   padding: 0 5%;
-  gap: 0px; 
-  opacity:0.7;
+  gap: 0px;
+  opacity: 0.7;
 }
 form:hover {
-  opacity:1;
+  opacity: 1;
 }
-form textarea{
+form textarea {
   width: 285px;
   height: 120px;
-  border:2px solid grey;
+  border: 2px solid grey;
 }
 
-.p-grey{
-  color: rgb(192, 188, 188); 
-  font-weight: bold; 
+.p-grey {
+  color: rgb(192, 188, 188);
+  font-weight: bold;
   font-family: Arial;
   padding-bottom: 20px;
 }
-form input{
-  padding: 20px ;
+form input {
+  padding: 20px;
   width: 95%;
   margin-bottom: 20px;
-  margin-left:5px;
+  margin-left: 5px;
 }
 
-.message{
+.message {
   text-align: center;
   width: 80%;
   padding: 5px;
 }
 
-#contact-me button{
+#contact-me button {
   height: 50px;
   width: 160px;
-  margin-top:40px; 
-  margin-left:95px;
+  margin-top: 40px;
+  margin-left: 95px;
   border-radius: 2px;
-  background:#30A1D1;
-  border:none;
+  background: #30a1d1;
+  border: none;
   font-size: 15px;
   font-weight: bolder;
   color: white;
-  cursor:pointer;
-  display:flex;
-  align-items:center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 #contact-me button:hover {
-  background:#8edcfd;
-border:3px solid indigo;
-color:indigo;
+  background: #8edcfd;
+  border: 3px solid indigo;
+  color: indigo;
 }
 
-footer ul li{
-list-style-type: none;
-display: inline;
+footer ul li {
+  list-style-type: none;
+  display: inline;
 }
-.copyright .media{
-   margin: 10px;   
+.copyright .media {
+  margin: 10px;
 }
-.copyright{
+.copyright {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 25px;
 }
-.contact-info{
+.contact-info {
   text-align: left;
   font-size: 1.2rem;
 }
-.contact-info span{
-  margin:10px;
+.contact-info span {
+  margin: 10px;
 }
 .contact-info .row {
   display: flex;
   align-items: center;
 }
-footer .underline{
+footer .underline {
   text-decoration: none;
-   color:#30A1D1;
-   font-size: 1.5rem;
-   margin-bottom:12px;
+  color: #30a1d1;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
 }
 
-footer .underline:hover{
-   text-decoration: underline;
+footer .underline:hover {
+  text-decoration: underline;
+}
+.media i {
+  color: #c4b4fa;
 }
 .media i:hover {
-  color:#30A1D1;
+  color: #30a1d1;
 }
-span .email:hover{
-  cursor:pointer;
+span .email:hover {
+  cursor: pointer;
 }
 .linkedin {
-  margin:0 10px;
+  margin: 0 10px;
 }
-.contact-info img{
-  width:20px;
+.contact-info img {
+  width: 20px;
   height: 20px;
-  margin:5px;
+  margin: 5px;
 }
 @media screen and (max-width: 480px) {
   #contact-me {
-    margin-top:50px !important;
     padding-top: 0;
   }
-  .copyright{
+  .copyright {
     flex-direction: column;
   }
-  .teamwork{
+  .teamwork {
     padding-top: 0;
-  }
-}
-@media screen and (max-width: 667px) {
-  #contact-me {
-    margin-top:550px;
   }
 }
 @media screen and (min-width: 900px) {
   #contact-me {
-    margin-top:0px;
+    margin-top: 0px;
   }
 }

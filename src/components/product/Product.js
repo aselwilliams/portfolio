@@ -1,26 +1,23 @@
-import React from 'react';
-import './product.css';
+import React from "react";
+import "./product.css";
 
-
-function Product({link, img, desc, title}) {
- 
+function Product({ link, img, desc, title }) {
   return (
-    <div className='p-container'>
-    <div className='p'>
+    <div className="p-container">
+      <div className="p">
         <div className="p-browser">
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-      </div>
-      <a href={link} target="_blank" rel="noreferrer">
+          <div className="p-circle"></div>
+          <div className="p-circle"></div>
+          <div className="p-circle"></div>
+        </div>
+        <a href={link} target="_blank" rel="noreferrer">
           <img src={img} alt="celebrity" className="p-img" />
-      </a>
-     
+        </a>
+      </div>
+      <h2>{title}</h2>
+      <p className="para">{desc}</p>
     </div>
-    <h2>{title}</h2>
-       <p className='para'>{desc}</p>
-       </div>
-  )
+  );
 }
 
-export default Product
+export default Product;
