@@ -15,10 +15,10 @@ export const products = [
   },
   {
     id: 3,
-    title: "World Clocks",
+    title: "Library",
     img: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    link: "https://main--world-clocks-asel.netlify.app/",
-    desc: "Application that enables you to find out current time of any desired city in the world. The clocks are persistant until deleted. Tech stack: React.js, Context api, useReducer, Moment-timezone, CSS, uuid, localStorage.",
+    link: "https://library-asel.netlify.app/",
+    desc: "Library application provides details of the books and their issue status. The user can add a new book, update the info of the book and delete it. Tech stack: React.js, Firebase Database, Bootstrap, React-bootstrap."
   },
   {
     id: 4,
