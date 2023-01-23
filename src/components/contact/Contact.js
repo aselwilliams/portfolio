@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import "./contact.css";
 import emailjs from "@emailjs/browser";
-import phone from "../images/phone.png";
 import email from "../images/email.png";
 import address from "../images/address.png";
+import {motion} from 'framer-motion';
 
 function Contact() {
   const formRef = useRef();
@@ -87,10 +87,6 @@ function Contact() {
         <div className="copyright">
           <div className="contact-info">
             <div className="row">
-              <img src={phone} alt="phone" />
-              <span>+1(469)2384222</span>
-            </div>
-            <div className="row">
               <img src={email} alt="email" />
               <span
                 className="email"
@@ -112,12 +108,12 @@ function Contact() {
             </div>
 
             <div className="media">
-              <a
+              <a 
                 href="https://github.com/aselwilliams"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa-brands fa-square-github fa-3x"></i>
+                <motion.i whileHover={{rotate:360}} transition={{delay:0.04, type:'tween',duration:0.5}} className="fa-brands fa-square-github fa-3x"></motion.i>
               </a>
               <a
                 href="https://www.linkedin.com/in/asel-williams-987574246/"
@@ -125,14 +121,14 @@ function Contact() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fab fa-linkedin fa-3x"></i>
+                <motion.i whileHover={{rotate:360}} transition={{delay:0.04, type:'tween',duration:0.5}} className="fab fa-linkedin fa-3x"></motion.i>
               </a>
               <a
-                href="https://drive.google.com/file/d/1GW2dOjE8Rblx_SxQ4zWoHcl-LAjBRdw9/view"
+                href="https://docs.google.com/document/d/1Btg5dVUmEOBxUqRooII-Znk-SYPJnX2l/edit?usp=sharing&ouid=100175450856272254656&rtpof=true&sd=true"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa-sharp fa-solid fa-id-card fa-3x"></i>
+                <motion.i whileHover={{rotate:360}} transition={{delay:0.04, type:'tween',duration:0.5}} className="fa-sharp fa-solid fa-id-card fa-3x"></motion.i>
               </a>
             </div>
           </div>

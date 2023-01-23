@@ -49,7 +49,7 @@
 .a-desc {
   font-weight: 400;
   width: 70%;
-  line-height: 1.8;
+  line-height: 2;
 }
 .a-skill {
   border: 2px solid #c4b4fa;
@@ -58,6 +58,10 @@
   padding: 3px 6px;
   border-radius: 3px;
   margin-right: 15px;
+}
+.a-skill:hover{
+  background:#c4b4fa;
+  color:white;
 }
 @media screen and (max-width: 480px) {
   .a {

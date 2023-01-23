@@ -6,11 +6,11 @@ import ecommerce from "../images/ecommerce.png";
 import whatsapp from "../images/whatsapp.png";
 import beauty from "../images/beauty.png";
 import socialMedia from "../images/social-media.png";
-import cats from "../images/cats.png";
+import home from "../images/home.png";
 import library from '../images/library.png';
 
 function Projects() {
-  let images = [whatsapp, ecommerce, library, beauty, socialMedia, cats];
+  let images = [whatsapp, ecommerce, library, home, socialMedia, beauty ];
   return (
     <div className="pl">
       <div className="pl-texts">

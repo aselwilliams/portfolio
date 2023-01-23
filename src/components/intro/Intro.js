@@ -1,6 +1,7 @@
 import React from "react";
 import "./Intro.css";
 import sphere from "../images/sphere.jpg";
+import {motion} from 'framer-motion';
 
 function Intro() {
   return (
@@ -21,9 +22,9 @@ function Intro() {
             Collaboration is the key to diversity of thought and the generation
             of ideas and solutions.
           </p>
-          <a href="#contact-me" className="i-btn">
+          <motion.a whileHover={{scale:1.2}} href="#contact-me" className="i-btn">
             Get In Touch
-          </a>
+          </motion.a>
         </div>
       </div>
       <div className="i-right">

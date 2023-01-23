@@ -22,10 +22,12 @@ export const products = [
   },
   {
     id: 4,
-    title: "Beauty Salon",
-    link: "https://asel-beauty-salon.netlify.app/#home",
-    desc: "Modern and responsive beauty salon landing page built using CSS Grid, flexbox, React hooks, Styled components, Framer motion and reusable components. A landing page is a standalone web page, created for marketing and designed with a single goal, known as call to action. ",
+    title: "Bakery App",
+    // link: "https://cats-land-asel.netlify.app/",
+    link: "http://13.58.38.0/index.html",
+    desc:'Baking Art is a full-stack bakery e-commerce application that lets users order freshly-baked goods. MVP Features include user authentication, sorting, filtering, payment through Stripe, subscription, placing custom orders. Tech stack: JavaScript, HTML, CSS, Express, bcrypt, JWT, Stripe API, Sequelize, postgreSQL, bit.io, Email.js and gsapp.'
   },
+
   {
     id: 5,
     title: "Social media",
@@ -34,8 +36,8 @@ export const products = [
   },
   {
     id: 6,
-    title: "Cats Land",
-    link: "https://cats-land-asel.netlify.app/",
-    desc: "The React app that provides fun facts about cats. It enables user to read facts fetched from API, add new facts, add to favorites and delete facts. Tech stack: React.js, Redux, Axios, nanoid.",
+    title: "Beauty Salon",
+    link: "https://asel-beauty-salon.netlify.app/#home",
+    desc: "Modern and responsive beauty salon landing page built using CSS Grid, flexbox, React hooks, Styled components, Framer motion and reusable components. A landing page is a standalone web page, created for marketing and designed with a single goal, known as call to action. ",
   },
 ];
