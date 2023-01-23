@@ -28,9 +28,10 @@
 .i-name {
   font-size: 60px;
   text-align: left;
+  margin:0;
 }
 .i-title {
-  height: 50px;
+  height: 55px;
   overflow: hidden;
 }
 .i-title-wrapper {
